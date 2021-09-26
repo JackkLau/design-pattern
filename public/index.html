@@ -1,12 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>设计模式示例</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>设计模式示例</title>
+    <style></style>
+  </head>
+  <body>
+    <!-- <iframe src="http://www.baidu.com/" frameborder="0" scrolling="auto"></iframe> -->
+    <!-- <svg width="100" height="100" viewBox="50 50 50 50">
+    <circle id="mycircle" cx="50" cy="50" r="50" />
+  </svg> -->
+
+    <svg width="350" height="160">
+      <g class="layer" transform="translate(60,10)">
+        <circle r="5" cx="0" cy="105" />
+        <circle r="5" cx="90" cy="90" />
+        <circle r="5" cx="180" cy="60" />
+        <circle r="5" cx="270" cy="0" />
+
+        <g class="y axis">
+          <line x1="0" y1="0" x2="0" y2="120" />
+          <text x="-40" y="105" dy="5">$10</text>
+          <text x="-40" y="0" dy="5">$80</text>
+        </g>
+        <g class="x axis" transform="translate(0, 120)">
+          <line x1="0" y1="0" x2="270" y2="0" />
+          <text x="-30" y="20">January 2014</text>
+          <text x="240" y="20">April</text>
+        </g>
+      </g>
+    </svg>
+
+    <svg width="100%" height="100%" viewBox="0 0 720 200" ref="svg_line">
+      <path
+        class="wave"
+        fill="none"
+        stroke="rgba(130, 211, 255, 1)"
+        stroke-width="2"
+        stroke-linecap="round"
+        d="
+            M -90 70 
+            C 60 40, 120 40, 270 70 
+            S 480 90, 630 70
+            
+            C 780 40, 840 40, 990 70 
+            S 1200 90, 1350 70
+            
+            C 1500 40, 1560 40, 1710 70 
+            S 1920 90, 2070 70"
+      ></path>
+      <path
+        class="wave"
+        fill="none"
+        stroke="rgba(130, 211, 255, 0.66)"
+        stroke-width="2"
+        stroke-linecap="round"
+        d="
+            M -180 70 
+            C -30 40, 30 40, 180 70 
+            S 390 90, 540 70
+            
+            C 690 40, 750 40, 900 70 
+            S 1110 90, 1260 70
+            
+            C 1410 40, 1470 40, 1620 70 
+            S 1830 90, 1990 70"
+      ></path>
+      <path
+        class="wave"
+        fill="none"
+        stroke="rgba(130, 211, 255, 0.33)"
+        stroke-width="2"
+        stroke-linecap="round"
+        d="
+            M 0 70 
+            C 150 40, 210 40, 360 70 
+            S 570 90, 720 70
+            
+            C 870 40, 930 40, 1080 70 
+            S 1290 90, 1440 70"
+      ></path>
+    </svg>
+  </body>
 </html>

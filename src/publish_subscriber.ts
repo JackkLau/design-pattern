@@ -3,7 +3,7 @@ class HunterUnion {
   private static topics = Object.create(null);
 
   static subscribe(topic: string, fn: (money: number) => void) {
-    console.log('HunterUnion.topics :>> ', HunterUnion.topics);
+    // console.log('HunterUnion.topics :>> ', HunterUnion.topics);
     if (!HunterUnion.topics[topic]) {
       HunterUnion.topics[topic] = [];
     }
